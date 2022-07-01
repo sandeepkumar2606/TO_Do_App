@@ -1,0 +1,216 @@
+/* css design  */
+/* style for body */
+body{
+    margin: 0;
+    font-family: serif;
+    font-size: 1.2rem;
+    background-color: rgb(49, 57, 113);
+}
+/* style for single task div container */
+
+.singleTask{
+    border: 1px solid white;
+    width: 50%;
+    height: 90px;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    /* justify-content: space-evenly; */
+    position: relative;
+    left: 25%;
+}
+/* style for del check */
+.delechack{
+    margin: 15px;
+
+}
+/* style for category section */
+
+.catesec{
+    border: 1px solid black;
+    background-color: chartreuse;
+}
+
+/* style for TODO heading */
+
+.todoheading{
+    color: rgb(9, 231, 80);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* style for form */
+
+.form_class{
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+/* style for description area */
+
+.desc_Class input{
+    height: 50px;
+    width: 100%;
+    margin: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+    border-radius: 22px;
+    outline: none;
+}
+/* implemented some hover in description section */
+.desc_Class input:hover{
+    /* transform: scale(1.1); */
+    background-color: rgb(103, 248, 166);
+}
+
+/* design for select and option START */
+/* style for select and options input input area */
+
+.select_and_input{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.select_and_input select{
+    height: 45px;
+    width: 40%;
+    transition: transform 0.3s;
+    text-align: center;
+    margin-right: 50px;
+}
+.select_and_input input{
+    height: 45px;
+    width: 40%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.select_and_input select:hover{
+    background-color: rgb(103, 248, 166);
+
+}
+.select_and_input input:hover{
+    background-color: rgb(103, 248, 166);
+}
+/* design for select and option END */
+
+/* design for dates value */
+.datesValues{
+    transition: transform 0.3s;
+}
+.datesValues:hover{
+    background-color: rgb(103, 248, 166);
+
+}
+/* design for button */
+.buttonDesign{
+    height: 60px;
+    width: 150px;
+    color: white;
+    margin:1rem;
+    font-size: 1rem;
+    font-weight: 799;
+    transition: transform 0.3s;
+}
+.buttonDesign:hover{
+    transform:scale(1.1);
+}
+.colorRed{
+    background-color: red;
+    
+}
+
+.colorGrey{
+    background-color: gray;
+}
+.commonClass{
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;    
+    color: Black;
+    transition: transform 0.3s;
+}
+.commonClass:hover{
+    transform:scale(1.2);
+}
+/* design for edit sction */
+.editClass{
+        transition: transform 0.3s;
+        position: absolute;
+        left: 80%;
+        margin: 20px;
+}
+.editClass:hover{
+    transform:scale(1.2);
+}
+
+.editClass a{
+text-decoration: none;
+color: white;
+border: 1px solid  white;
+padding: 4px;
+background-color: rgb(99, 148, 223);
+}
+/* for placing placeholder in the center  */
+input[type="textarea"]::placeholder { 
+                  
+    /* Firefox, Chrome, Opera */
+    text-align: center;
+}
+/* design for EDIT button*/
+.edit-button{
+    margin-top: 10px;
+    height: 60px;
+    width: 140px;
+    padding:0.4rem;
+    font-size: 1.3rem;
+    background-color: rgb(99, 133, 243);
+    color: white;
+}
+
+.edit-button:hover
+{
+    transform:scale(1.2);
+    transition: all 0.3s;
+}
+
+input.delechack{
+    width: 17px;
+    height: 17px;
+}
+
+/* Design for different category */
+.work{
+    background-color:lightcoral;
+        
+}
+.Personal{
+    background-color: skyblue;
+
+}
+.Cleaning{
+    background-color: lightgreen;
+}
+.Cycling{
+    background-color: lightgreen;
+}
+.Reading{
+    background-color: lightblue;
+}
+.Others{
+    background-color: rgb(112, 209, 209);
+}
+.name_and_dueDate{
+    height: auto;
+    width: 200px;
+}
+.dueDate{
+    width: fit-content;
+}
+.color-white{
+    color: white;
+}
