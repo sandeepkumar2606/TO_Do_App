@@ -14,7 +14,7 @@
 
 ## Overview
 
-It is a simple TODO application using NodeJS and MongDB. where a user of this application can create,edit and delete all the ToDo items .
+It is a simple TODO application using NodeJS and MongDB , where a user of this application can create,edit and delete any number of ToDo items .
 
 ### Screenshot
 
